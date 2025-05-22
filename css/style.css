@@ -32,8 +32,34 @@ img{
     max-width: 100%;
 }
 /*ヘッダー*/
+.header{
+    padding-top: 40px;
+    background-image: url(../images/stripe.png);
+    background-repeat: repeat-x;
+}
 .logo{
     text-align: center;
+}
+.nav ul{
+    margin: 30px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.nav a:link{
+    color: #253958;
+}
+.nav a:visited{
+    color: #253958;
+}
+.nav a:hover{
+    text-decoration: none;
+}
+.nav a:active{
+    text-decoration: none;
 }
 /*ヒーロー*/
 .hero{
