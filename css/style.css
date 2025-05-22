@@ -6,6 +6,9 @@ html {
 *{
     box-sizing: border-box;
 }
+body{
+    margin:0 0 0 0;
+}
 p, li, td{
     line-height: 1.7;
 }
@@ -25,6 +28,9 @@ a:active{
     color: #f07d34;
     text-decoration: underline;
 }
+img{
+    max-width: 100%;
+}
 /*ヘッダー*/
 .logo{
     text-align: center;
@@ -34,7 +40,14 @@ a:active{
     text-align: center;
 }
 /*メイン*/
+main{
+    margin: 90px auto 90px auto;
+    max-width: 1000px;
+}
 main h2{
+    margin: 60px 0 20px 0;
+    border-bottom: 2px solid #253958;
+    padding: 0 0 5px 0;
     color: #253958;
     font-size: 1.3rem;
 }
